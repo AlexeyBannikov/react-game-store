@@ -1,0 +1,26 @@
+.button {
+  margin-left: 5px;
+  padding: 5px 10px;
+  border: none;
+  background-color: #49aaee;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0px 5px 10px #3aa3ed;
+
+  &:active {
+    position: relative;
+    top: 4px;
+    box-shadow: 0px 0px 7px #3aa3ed;
+  }
+}
+
+.added {
+  color: #000;
+  background: rgb(192, 117, 117);
+  box-shadow: 0px 5px 10px rgb(192, 117, 117);
+
+  &:active {
+    box-shadow: 0px 0px 7px rgb(192, 117, 117);
+  }
+}

@@ -1,0 +1,15 @@
+.items {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #49aaee;
+  border-radius: 15px;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  z-index: 2;
+  left: 20px;
+  top: -5px;
+}

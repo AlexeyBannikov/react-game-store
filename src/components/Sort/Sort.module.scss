@@ -1,0 +1,31 @@
+.sort {
+  width: 255px;
+}
+
+.label {
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.popup {
+  margin-top: 5px;
+  background-color: #edeef0;
+  position: absolute;
+  z-index: 1;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgb(200, 200, 200);
+
+  li {
+    cursor: pointer;
+    margin: 7px 10px;
+
+    &:hover {
+      background-color: #e8e8e8;
+    }
+  }
+}

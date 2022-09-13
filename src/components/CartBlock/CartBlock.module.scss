@@ -1,0 +1,18 @@
+.block {
+  display: flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.totalPrice {
+  margin-left: 15px;
+  font-size: 18px;
+  padding: 0px 10px 0px 0px;
+}
+
+@media screen and (max-width: 715px) {
+  .block {
+    margin-top: 15px;
+  }
+}

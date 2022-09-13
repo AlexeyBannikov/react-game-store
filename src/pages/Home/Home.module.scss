@@ -1,0 +1,33 @@
+.root {
+  padding: 20px 0px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.upper {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 5px 0px 10px;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+  margin-bottom: 20px;
+}
+
+.errorInfo {
+  margin: 100px auto;
+  width: 500px;
+  text-align: center;
+
+  h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+}

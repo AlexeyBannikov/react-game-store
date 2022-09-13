@@ -1,0 +1,14 @@
+.root {
+  max-width: 1400px;
+  margin: 0 auto;
+  font-size: 18px;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+  padding-top: 10px;
+  border-top: 1px solid #000;
+}

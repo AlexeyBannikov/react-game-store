@@ -1,0 +1,15 @@
+.genres {
+  font-size: 14px;
+  padding: 5px 0px;
+
+  li {
+    display: inline-block;
+    border-radius: 30px;
+    padding: 2px 15px;
+    background-color: #d5e1e9;
+  }
+
+  li:not(:first-child) {
+    margin-left: 5px;
+  }
+}

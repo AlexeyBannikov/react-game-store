@@ -1,7 +1,7 @@
 # 🎮 React game store 
 Deploy: https://react-game-store-alexeybannikov.vercel.app/
 
-# 🛠 Stack
+## 🛠 Stack
 <ul>
   <li>ReactJS 18</li>
   <li>TypeScript</li>
@@ -15,3 +15,4 @@ Deploy: https://react-game-store-alexeybannikov.vercel.app/
   <li>React Content Loader</li>
   <li>Lodash.Debounce</li>
 </ul>
+

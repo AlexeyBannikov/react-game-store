@@ -1,7 +1,7 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
 
-import sortIcon from '../../assets/img/sort-icon.svg';
+import sortIcon from '../../assets/icons/sort-icon.svg';
 import { setCurrentSort } from '../../redux/filter/slice';
 import { SortPropertyEnum } from '../../redux/filter/types';
 

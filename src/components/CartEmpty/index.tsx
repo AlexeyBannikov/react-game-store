@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import emptyCartPng from '../../assets/img/empty-cart.png';
+import emptyCartPng from '../../assets/images/empty-cart.png';
 
 import styles from './CartEmpty.module.scss';
 

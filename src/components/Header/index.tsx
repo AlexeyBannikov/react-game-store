@@ -3,7 +3,7 @@ import { useLocation, Link } from 'react-router-dom';
 
 import Search from '../Search';
 import CartBlock from '../CartBlock';
-import logoSvg from '../../assets/img/header-logo.svg';
+import logoSvg from '../../assets/icons/header-logo.svg';
 
 import styles from './Header.module.scss';
 

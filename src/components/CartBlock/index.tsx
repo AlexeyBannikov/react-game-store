@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 
 import ItemsInCart from '../ItemsInCart';
-import iconSvg from '../../assets/img/cart-icon.svg';
+import iconSvg from '../../assets/icons/cart-icon.svg';
 import { calcTotalPrice } from '../utils/calcTotalPrice';
 import { selectCartItems } from '../../redux/cart/selectors';
 

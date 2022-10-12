@@ -2,8 +2,8 @@ import React from 'react';
 import { useDispatch } from 'react-redux';
 import debounce from 'lodash.debounce';
 
-import iconSvg from '../../assets/img/search-icon.svg';
-import clearIconSvg from '../../assets/img/clear-icon.svg';
+import iconSvg from '../../assets/icons/search-icon.svg';
+import clearIconSvg from '../../assets/icons/clear-icon.svg';
 import { setSearchValue } from '../../redux/filter/slice';
 
 import styles from './Search.module.scss';

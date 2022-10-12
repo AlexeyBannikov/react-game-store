@@ -1,7 +1,7 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
 
-import deleteIcon from '../../assets/img/delete-icon.svg';
+import deleteIcon from '../../assets/icons/delete-icon.svg';
 import { deleteItem } from '../../redux/cart/slice';
 import { TCartItem } from '../../redux/cart/types';
 

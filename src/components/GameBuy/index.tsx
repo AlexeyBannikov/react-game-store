@@ -1,7 +1,7 @@
 import React from 'react';
-import Button from '../Button';
 import { useSelector, useDispatch } from 'react-redux';
 
+import Button from '../Button';
 import { addItem, deleteItem } from '../../redux/cart/slice';
 import { selectCartItems } from '../../redux/cart/selectors';
 import { TCartItem } from '../../redux/cart/types';
@@ -11,7 +11,7 @@ import styles from './GameBuy.module.scss';
 const GameBuy: React.FC<TCartItem> = ({ id, title, price, imageUrl }) => {
   const dispatch = useDispatch();
   const items = useSelector(selectCartItems);
-  const isItemInCart = items.some((item) => item.id === id);
+  const isItemInCart = items.some(item => item.id === id);
 
   const handleClick = () => {
     const item: TCartItem = {

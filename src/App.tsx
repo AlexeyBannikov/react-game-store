@@ -7,8 +7,6 @@ import NotFound from './pages/NotFound';
 import Cart from './pages/Cart';
 import Game from './pages/Game';
 
-import './assets/styles/global.scss';
-
 const App = () => {
   return (
     <Routes>
